@@ -8,6 +8,7 @@ I learn mostly by doing: working through labs on TryHackMe and Hack The Box, and
 
 | Project | What it is | What I built it to learn |
 |---|---|---|
+| [`vigilhub`](https://github.com/efe-gucluturk/vigilhub) | A unified security command center and cross-tool correlation engine (FastAPI, WebSockets, Next.js, local Ollama) that links VigilSIEM, GitVigil, and ReconVigil findings onto shared assets | Connecting findings from separate tools, asset correlation, real-time dashboards, running a local LLM |
 | [`vigilsiem`](https://github.com/efe-gucluturk/vigilsiem) | A mini-SIEM and log parser | Detection rules, log normalization, OWASP API Top 10 defenses |
 | [`gitvigil`](https://github.com/efe-gucluturk/gitvigil) | A Git history secret and IaC misconfiguration scanner | Regex/entropy detection, SARIF reporting, secure CLI design |
 | [`reconvigil`](https://github.com/efe-gucluturk/reconvigil) | An attack surface and web recon tool | DNS enumeration, subdomain takeover checks, HTTP security headers, SSRF protections |
