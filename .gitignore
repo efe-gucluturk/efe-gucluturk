@@ -1,0 +1,23 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+
+# Local data, logs and dumps (never commit)
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.dump
+output/
+Recon-Karneler/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
